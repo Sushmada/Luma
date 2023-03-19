@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28187" started-at="2023-01-29T20:46:08 IST" finished-at="2023-01-29T20:46:36 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28187" started-at="2023-01-29T20:46:08 IST" finished-at="2023-01-29T20:46:36 IST">
+      <class name="Luma_Tests.SignIn_Excel_Test">
+        <test-method status="PASS" signature="initializeApp()[pri:0, instance:Luma_Tests.SignIn_Excel_Test@543c6f6d]" name="initializeApp" is-config="true" duration-ms="24204" started-at="2023-01-29T20:46:08 IST" finished-at="2023-01-29T20:46:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeApp -->
+        <test-method status="FAIL" signature="SignIn(java.lang.String)[pri:0, instance:Luma_Tests.SignIn_Excel_Test@543c6f6d]" name="SignIn" duration-ms="2080" started-at="2023-01-29T20:46:32 IST" data-provider="getDataSignIn" finished-at="2023-01-29T20:46:34 IST">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+[public void Luma_Tests.SignIn_Excel_Test.SignIn(java.lang.String) throws java.lang.InterruptedException] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: SignIn([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.util.ArrayList) [sushshay143@gmail.com, bujji@gmail.com]]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+[public void Luma_Tests.SignIn_Excel_Test.SignIn(java.lang.String) throws java.lang.InterruptedException] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: SignIn([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.util.ArrayList) [sushshay143@gmail.com, bujji@gmail.com]]
+at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)
+at org.testng.internal.Parameters.injectParameters(Parameters.java:905)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:Luma_Tests.SignIn_Excel_Test@543c6f6d]" name="closeApp" is-config="true" duration-ms="1833" started-at="2023-01-29T20:46:34 IST" finished-at="2023-01-29T20:46:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- Luma_Tests.SignIn_Excel_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

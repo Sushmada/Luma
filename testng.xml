@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="suite">
+
+<listeners>
+<listener class-name="Luma_TestComponents.Listeners"/>
+</listeners>
+
+  
+  
+  <test thread-count="5" name="Sign In">
+    <classes>
+      <class name="Luma_Tests.SignInTest"/>
+    </classes>
+  </test>
+  
+  <test thread-count="5" name="Create Account">
+    <classes>
+      <class name="Luma_Tests.CreateAccountTest"/>
+    </classes>
+  </test>
+  
+  <test thread-count="5" name="Order Place">
+    <classes>
+      <class name="Luma_Tests.OrderPlaceTest"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->
